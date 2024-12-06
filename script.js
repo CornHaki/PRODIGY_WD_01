@@ -1,6 +1,4 @@
-// File: script.js
 document.addEventListener('DOMContentLoaded', () => {
-    // Smooth scrolling for navigation links
     document.querySelectorAll('nav ul li a').forEach(link => {
       link.addEventListener('click', (e) => {
         e.preventDefault();
@@ -9,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   
-    // Form submission handling
     document.getElementById('contactForm').addEventListener('submit', function(event) {
       event.preventDefault();
       const email = event.target[0].value;

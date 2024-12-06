@@ -16,7 +16,7 @@ html {
     -moz-box-sizing: border-box;
 }
   
-  body {
+body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #000000;
@@ -138,7 +138,7 @@ header nav ul li a:focus {
 }
   
 
- .btn-primary {
+.btn-primary {
   background-color: #ff6f61;
   color: #fff;
   padding: 0.75rem 1.5rem;
@@ -454,41 +454,41 @@ header nav ul li a:focus {
 }
 
 
-  #contact {
-    padding: 2rem;
-    text-align: center;
-  }
+#contact {
+  padding: 2rem;
+  text-align: center;
+}
   
-  form {
-    max-width: 600px;
-    margin: auto;
-  }
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
   
-  form input, form textarea {
-    width: 100%;
-    padding: 0.75rem;
-    margin: 0.5rem 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    transition: border-color 0.3s ease;
-  }
-  
-  form input:focus, form textarea:focus {
-    border-color: #ff6f61; /* Highlight input fields on focus */
-    outline: none;
-  }
-  
-  form button {
-    background: #333;
-    color: #fff;
-    padding: 0.75rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+form input:focus, form textarea:focus {
+  border-color: #ff6f61; 
+  outline: none;
+}
+
+form button {
+  background: #333;
+  color: #fff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
   
 footer {
-  background-color: #111; /* Optional: Adjust the footer background color */
+  background-color: #111; 
   color: #fff;
   padding: 0.01rem 0;
   text-align: center;
@@ -503,31 +503,31 @@ footer .footer-content {
 
 footer .social-links {
   display: flex;
-  gap: 1.5rem; /* Space between the icons */
+  gap: 1.5rem; 
 }
 
 footer .social-links a {
-  font-size: 1.5rem; /* Adjust the icon size */
-  color: #fff; /* Icon color */
+  font-size: 1.5rem; 
+  color: #fff; 
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
 footer .social-links a:hover {
-  transform: scale(1.2); /* Slight zoom effect on hover */
-  color: #00aaff; /* Change color on hover */
+  transform: scale(1.2); 
+  color: #00aaff;
 }
 
-  @media screen and (max-width: 768px) {
-    #hero h1 {
-      font-size: 2.5rem;
-    }
-  
-    #hero p {
-      font-size: 1.1rem;
-    }
-  
-    .features-grid {
-      grid-template-columns: 1fr; /* Stack features on small screens */
-    }
+@media screen and (max-width: 768px) {
+  #hero h1 {
+    font-size: 2.5rem;
   }
+
+  #hero p {
+    font-size: 1.1rem;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr; 
+  }
+}
   
