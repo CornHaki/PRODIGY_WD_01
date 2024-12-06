@@ -6,63 +6,199 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="#" class="logo">Brand</a>
-      <ul>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<header>
+  <nav class="nav-bar">
+    <div class="logo">INNOVEXA</div>
+    <ul class="nav-links">
+      <li><a href="#features" class="nav-link">Features</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#pricing" class="nav-link">Pricing</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
   <section id="hero">
-    <div class="hero-content">
-      <h1>Welcome to Our Landing Page</h1>
-      <p>Engaging Tagline to Grab Attention!</p>
-      <a href="#contact" class="btn-primary">Get Started</a>
+  <div class="hero-content">
+    <h1 class="hero-title" style="color: var(--primary-color);">Pioneering the Future of Innovation</h1>
+    <p class="hero-tagline" style="color: var(--secondary-color); font-size: 1.4rem;"><strong>Your Partner for a Smarter Tomorrow</strong></p>
+    <a href="#features" class="btn-primary">Get Started</a>
+  </div>
+</section>
+
+<section id="features" class="features">
+  <h2 style="text-align: center; font-size: 2.5rem;">Features</h2>
+  <div class="features-grid">
+    <div class="feature">
+      <i class="fas fa-plug"></i>
+      <h3>Easy Integration</h3>
+      <p>Seamlessly connect our platform with your existing tools and workflows for a hassle-free experience.</p>
     </div>
-  </section>
+    <div class="feature">
+      <i class="fas fa-desktop"></i>
+      <h3>Intuitive Interface</h3>
+      <p>A clean and user-friendly design to get you up and running without a steep learning curve.</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-chart-line"></i>
+      <h3>Real-Time Analytics</h3>
+      <p>Track your progress and make data-driven decisions with our powerful analytics dashboard.</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-lock"></i>
+      <h3>Enhanced Security</h3>
+      <p>State-of-the-art encryption and safety measures to protect your data.</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-headset"></i>
+      <h3>24/7 Support</h3>
+      <p>Our dedicated team is always here to assist you, any time of the day.</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-expand"></i>
+      <h3>Scalability</h3>
+      <p>Grow with confidence! Our solutions are designed to scale as your business expands.</p>
+    </div>
+  </div>
+</section>
 
-  <section id="features">
-    <h2>Features</h2>
-    <div class="features-grid">
-      <div class="feature">
-        <h3>Feature 1</h3>
-        <p>Description of Feature 1.</p>
+<section id="about">
+  <h2>About Us</h2>
+  <div class="about-content">
+    <p>Our company is dedicated to providing innovative solutions that make a real difference in people's lives.</p>
+    <p>We believe in building strong relationships with our customers and partners, and we're committed to delivering exceptional service and support.</p>
+    <div class="about-stats">
+      <div class="stat">
+        <i class="fas fa-users"></i>
+        <h3>10+</h3>
+        <p>Years of Experience</p>
       </div>
-      <div class="feature">
-        <h3>Feature 2</h3>
-        <p>Description of Feature 2.</p>
+      <div class="stat">
+        <i class="fas fa-trophy"></i>
+        <h3>100+</h3>
+        <p>Awards and Recognition</p>
       </div>
-      <div class="feature">
-        <h3>Feature 3</h3>
-        <p>Description of Feature 3.</p>
+      <div class="stat">
+        <i class="fas fa-globe"></i>
+        <h3>50+</h3>
+        <p>Countries Served</p>
       </div>
     </div>
-  </section>
+    <div class="about-team">
+      <h3>Meet Our Team</h3>
+      <div class="team-members">
+        <div class="team-member">
+          <img src="team-member-1.jpg" alt="Team Member 1">
+          <h4>John Doe</h4>
+          <p>CEO & Founder</p>
+        </div>
+        <div class="team-member">
+          <img src="team-member-2.jpg" alt="Team Member 2">
+          <h4>Jane Doe</h4>
+          <p>CTO & Co-Founder</p>
+        </div>
+        <div class="team-member">
+          <img src="team-member-3.jpg" alt="Team Member 3">
+          <h4>Bob Smith</h4>
+          <p>Marketing Manager</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Information about your company or product that builds trust.</p>
-  </section>
+<section id="pricing">
+  <h2>Our Pricing Plans</h2>
+  <p>Choose the best plan that suits your needs. Whether you're a beginner or an advanced user, we've got you covered!</p>
+  <div class="pricing-cards">
+    <div class="pricing-card">
+      <h3>Basic Plan</h3>
+      <p class="price">$19/month</p>
+      <ul>
+        <li>1 User</li>
+        <li>Basic Features</li>
+        <li>Email Support</li>
+      </ul>
+      <button class="btn-primary">Get Started</button>
+    </div>
+    <div class="pricing-card popular">
+      <h3>Pro Plan</h3>
+      <p class="price">$49/month</p>
+      <ul>
+        <li>5 Users</li>
+        <li>All Features</li>
+        <li>Priority Support</li>
+      </ul>
+      <button class="btn-primary">Get Started</button>
+    </div>
+    <div class="pricing-card">
+      <h3>Enterprise Plan</h3>
+      <p class="price">$99/month</p>
+      <ul>
+        <li>Unlimited Users</li>
+        <li>All Features</li>
+        <li>Dedicated Support</li>
+      </ul>
+      <button class="btn-primary">Get Started</button>
+    </div>
+    <div class="pricing-card free-trial">
+      <h3>Free Trial</h3>
+      <p class="price">Free for 30 days</p>
+      <ul>
+        <li>1 User</li>
+        <li>Basic Features</li>
+        <li>Email Support</li>
+      </ul>
+      <button class="btn-primary">Start Free Trial</button>
+    </div>
+  </div>
+</section>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <form id="contactForm">
+
+<section id="subscribe">
+  <h2>Stay Updated with Our Newsletter</h2>
+  <p>Get the latest news, updates, and exclusive offers from Innovexa. Enter your email below to subscribe.</p>
+  <form id="subscribeForm">
+    <div class="form-group">
+      <input type="email" id="subscribeEmail" placeholder="your.email@example.com" required>
+      <button type="submit" class="btn-primary">Subscribe Now</button>
+    </div>
+  </form>
+  <p class="subscribe-note">We respect your privacy and will never share your email address with anyone.</p>
+</section>
+
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form id="contactForm">
+    <div class="form-group">
+      <label for="name">Your Name:</label>
       <input type="text" id="name" placeholder="Your Name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Your Email:</label>
       <input type="email" id="email" placeholder="Your Email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Your Message:</label>
       <textarea id="message" placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn-primary">Send</button>
-    </form>
-  </section>
-
-  <footer>
+    </div>
+    <button type="submit" class="btn-primary">Send</button>
+  </form>
+</section>
+<footer>
+  <div class="footer-content">
     <p>&copy; 2024 Your Brand. All Rights Reserved.</p>
-  </footer>
+    <div class="social-links">
+        <a href="https://github.com/CornHaki" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/dimpal-baishya-a008a1249" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/yourbrand" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+</footer>
 
   <script src="script.js"></script>
 </body>

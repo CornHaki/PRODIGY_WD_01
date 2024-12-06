@@ -10,9 +10,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   
     // Form submission handling
-    document.getElementById('contactForm').addEventListener('submit', (e) => {
-      e.preventDefault();
-      alert('Thank you for contacting us!');
-    });
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      const email = event.target[0].value;
+      alert(`Thank you for contacting us ${email}!`);
+      event.target.reset();
+  });
   });
   
