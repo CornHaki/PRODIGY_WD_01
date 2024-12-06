@@ -76,15 +76,13 @@ header nav ul li a:focus {
   outline: none;
   box-shadow: 0 0 0 2px #fff, 0 0 0 4px #ff6f61;
 }
-.logo {
-  
+.logo {  
   font-size: 1.8rem;
   font-weight: bold;
   color: white;
   transition: transform 0.3s, color 0.3s;
   cursor: pointer;
   text-decoration: none;
-  
 }
 
 .logo:hover {
