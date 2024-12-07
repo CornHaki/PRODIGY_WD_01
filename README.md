@@ -52,13 +52,13 @@ project-directory/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS file for styling
 ├── script.js           # JavaScript file for calculator logic
-├── assets
+├── favicon-32x32.png 
+├── README.md           # Project description and details
+└── assets/
       ├── image1.png
       ├── image2.png
       ├── image3.png
       └── image4.png
-├── favicon-32x32.png 
-└── README.md           # Project description and details
 
 ```
 
