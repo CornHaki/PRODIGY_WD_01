@@ -61,16 +61,12 @@ project-directory/
 └── README.md           # Project description and details
 
 ```
-## Author 🖋️
-Dimpal Baishya
----
 
 ## *📬 Contact Me*
 Feel free to connect with me:
 
 📧 Email: baishyadimpal31@gmail.com
 ---
-
 
 ## Author 🖋️
 Dimpal Baishya
