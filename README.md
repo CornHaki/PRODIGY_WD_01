@@ -49,16 +49,16 @@ This is a modern and responsive landing page created for **Innovexa**, a brand a
 ## *📂 Folder Structure*
 ```plaintext
 project-directory/
-├── index.html          # Main HTML file
-├── styles.css          # CSS file for styling
-├── script.js           # JavaScript file for calculator logic
-├── favicon-32x32.png 
-├── README.md           # Project description and details
 └── assets/
-      ├── image1.png
-      ├── image2.png
-      ├── image3.png
-      └── image4.png
+├      ├── image1.png
+├      ├── image2.png
+├      ├── image3.png
+├      └── image4.png
+├── README.md           # Project description and details
+├── favicon-32x32.png 
+├── index.html          # Main HTML file
+├── script.js           # JavaScript file for calculator logic
+└── styles.css          # CSS file for styling
 
 ```
 
