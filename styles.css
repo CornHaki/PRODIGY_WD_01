@@ -19,16 +19,23 @@ html {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #000000;
-    background: linear-gradient(135deg, #373b44, #4286f4);
 
-    background-attachment: fixed;
-    background-size: cover;
+    background: linear-gradient(120deg, #9375ff,#3d5f61,#ff758c);
+    background-size: 300% 300%;
+    animation: gradientAnimation 12s ease infinite;
 }
+
+  /* Gradient Animation */
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
 header {
-  
+  position: relative; 
   color: #fff;
   padding: 1rem 0;
+  z-index: 10;
 }
 
 header nav {
@@ -39,6 +46,7 @@ header nav {
   max-width: 1200px;
   margin: auto;
   padding: 0 2rem;
+  z-index: 10;
 }
 
 
@@ -48,11 +56,28 @@ header nav ul {
   gap: 2rem;
   margin: 0;
   padding: 0;
+  z-index: 10;
 }
 
 header nav ul li {
-  margin-left: 20px;
   position: relative;
+  z-index: 10;
+}
+nav ul li::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+nav ul li:hover::after {
+  width: 80%;
 }
 
 header nav ul li a {
@@ -60,33 +85,21 @@ header nav ul li a {
   text-decoration: none;
   transition: color 0.3s ease;
   padding: 10px;
+  z-index: 10;
 }
 
-header nav ul li a:hover {
-  color: #ccc;
-  
-}
 
-header nav ul li a:active {
-  color: #fff;
-  
-}
 
-header nav ul li a:focus {
-  outline: none;
-  
-}
-.logo {  
-  left: -10;
+.logo {
   font-size: 2.8rem;
   font-weight: bold;
-  color: rgb(255, 255, 255);
+  color: #fff;
   transition: transform 0.3s, color 0.3s;
   cursor: pointer;
-  text-decoration: line-through;
+  text-decoration: none;
 }
 
-.logo:hover{
+.logo:hover {
   transform: scale(1.05);
 }
 
@@ -533,17 +546,81 @@ footer .social-links a:hover {
   color: #00aaff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+
+  .logo {
+    font-size: 2.8rem; /* Make the logo stand out */
+    font-weight: bold;
+    margin-bottom: 1px;
+  }
+
+  .nav-links {
+    display: flex; /* Align items in a row */
+    justify-content: center;
+    gap: 0.01px; /* Add spacing between links */
+    padding: 0;
+    list-style: none; /* Remove bullets */
+  }
+
+  .nav-link {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff; /* Adjust text color as needed */
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+
+  .nav-link:hover {
+    color: #3991f5; /* Highlight color on hover */
+  }
+  nav ul li::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #3991f5;
+    transition: width 0.3s ease;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  nav ul li:hover::after {
+    width: 80%;
+  }
   #hero h1 {
-    font-size: 2.5rem;
+      height: 80px;
+      font-size: 1.5rem;
+      line-height: 1.2;
   }
 
   #hero p {
-    font-size: 1.1rem;
+      font-size: 1rem;
+      margin-bottom: 1rem;
   }
 
   .features-grid {
     grid-template-columns: 1fr; 
+    gap: 1rem;
+  }
+  #pricing{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .pricing-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricing-card {
+    margin-bottom: 1rem;
   }
 }
   
