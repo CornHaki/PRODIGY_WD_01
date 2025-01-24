@@ -28,10 +28,10 @@ This is a modern and responsive landing page created for **Innovexa**, a brand a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/CornHaki/CodSoft_Task_2.git
+   git clone https://github.com/CornHaki/PRODIGY_WD_01.git
 2. Navigate to the project directory:
    ```bash
-   cd CodSoft_Task_2
+   cd PRODIGY_WD_01
 3. Open the ```index.html``` file in your browser.
    ```bash
    open index.html
@@ -48,7 +48,7 @@ This is a modern and responsive landing page created for **Innovexa**, a brand a
 
 ## *📂 Folder Structure*
 ```plaintext
-project-directory/
+PRODIGY_WD_01/
 └── assets/
 │      ├── image1.png
 │      ├── image2.png
