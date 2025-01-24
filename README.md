@@ -1,4 +1,4 @@
-# Innovexa Landing Page 🚀
+# <s>Innovexa</s> Landing Page 🚀
 
 This is a modern and responsive landing page created for **Innovexa**, a brand aimed at delivering innovative solutions for a smarter future. The page is designed to showcase the brand's mission, features, and offerings while ensuring an engaging user experience.
 

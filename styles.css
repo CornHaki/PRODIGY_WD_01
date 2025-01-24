@@ -25,7 +25,6 @@ body {
     animation: gradientAnimation 12s ease infinite;
 }
 
-  /* Gradient Animation */
   @keyframes gradientAnimation {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
@@ -556,29 +555,29 @@ footer .social-links a:hover {
   }
 
   .logo {
-    font-size: 2.8rem; /* Make the logo stand out */
+    font-size: 2.8rem; 
     font-weight: bold;
     margin-bottom: 1px;
   }
 
   .nav-links {
-    display: flex; /* Align items in a row */
+    display: flex; 
     justify-content: center;
-    gap: 0.01px; /* Add spacing between links */
+    gap: 0.01px; 
     padding: 0;
-    list-style: none; /* Remove bullets */
+    list-style: none; 
   }
 
   .nav-link {
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
-    color: #ffffff; /* Adjust text color as needed */
-    transition: color 0.3s ease; /* Smooth hover effect */
+    color: #ffffff; 
+    transition: color 0.3s ease; 
   }
 
   .nav-link:hover {
-    color: #3991f5; /* Highlight color on hover */
+    color: #3991f5; 
   }
   nav ul li::after {
     content: "";
