@@ -35,7 +35,12 @@ This is a modern and responsive landing page created for **Innovexa**, a brand a
 3. Open the ```index.html``` file in your browser.
    ```bash
    open index.html
-   
+
+---
+
+## 🚀 Live Demo
+[Visit <s>INNOVEXA</s> Landing Page](https://cornhaki.github.io/PRODIGY_WD-01/)
+
 ---
 
 ## Screenshots 📸
