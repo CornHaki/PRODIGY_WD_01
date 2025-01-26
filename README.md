@@ -38,11 +38,6 @@ This is a modern and responsive landing page created for **Innovexa**, a brand a
 
 ---
 
-## 🚀 Live Demo
-[Visit <s>INNOVEXA</s> Landing Page](https://cornhaki.github.io/PRODIGY_WD-01/)
-
----
-
 ## Screenshots 📸
 ![Landing page Screenshot](assets/image1.png)
 ![Landing page Screenshot](assets/image2.png)
