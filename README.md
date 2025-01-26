@@ -39,7 +39,7 @@ This is a modern and responsive landing page created for **Innovexa**, a brand a
 ---
 
 ## 🚀 Live Demo
-[Visit <s>INNOVEXA</s> Landing Page](https://cornhaki.github.io/CodSoft_Task_2/)
+[Visit <s>INNOVEXA</s> Landing Page](https://cornhaki.github.io/PRODIGY_WD_01/)
 
 ---
 
