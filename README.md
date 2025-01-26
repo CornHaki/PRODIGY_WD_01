@@ -39,10 +39,10 @@ This is a modern and responsive landing page created for **Innovexa**, a brand a
 ---
 
 ## Screenshots 📸
-![3D Calculator Screenshot](assets/image1.png)
-![3D Calculator Screenshot](assets/image2.png)
-![3D Calculator Screenshot](assets/image3.png)
-![3D Calculator Screenshot](assets/image4.png)
+![Landing page Screenshot](assets/image1.png)
+![Landing page Screenshot](assets/image2.png)
+![Landing page Screenshot](assets/image3.png)
+![Landing page Screenshot](assets/image4.png)
 
 ---
 
